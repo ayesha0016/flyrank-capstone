@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Identity Kit — Ayesha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #FAFAF9;
+    color: #1A1A1A;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 80px 24px;
+  }
+  .container {
+    max-width: 800px;
+    width: 100%;
+  }
+  .logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #2C5F6F;
+    margin-bottom: 64px;
+  }
+  h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0dc;
+    padding-bottom: 8px;
+  }
+  section { margin-bottom: 56px; }
+  .font-sample {
+    margin-bottom: 20px;
+  }
+  .font-sample .label {
+    font-size: 13px;
+    color: #6b6b68;
+    margin-bottom: 4px;
+  }
+  .font-sample .heading-demo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+  }
+  .font-sample .body-demo {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+  }
+  .palette {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .swatch {
+    width: 150px;
+  }
+  .swatch .box {
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.06);
+    margin-bottom: 8px;
+  }
+  .swatch .hex {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .swatch .role {
+    font-size: 13px;
+    color: #6b6b68;
+  }
+  .style-note {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #2C5F6F;
+    line-height: 1.5;
+    border-left: 3px solid #E8A54B;
+    padding-left: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Ayesha</div>
+
+    <section>
+      <h2>Fonts</h2>
+      <div class="font-sample">
+        <div class="label">Heading — Space Grotesk</div>
+        <div class="heading-demo">The quick brown fox jumps</div>
+      </div>
+      <div class="font-sample">
+        <div class="label">Body — Inter</div>
+        <div class="body-demo">The quick brown fox jumps over the lazy dog.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Palette</h2>
+      <div class="palette">
+        <div class="swatch">
+          <div class="box" style="background:#2C5F6F;"></div>
+          <div class="hex">#2C5F6F</div>
+          <div class="role">Main</div>
+        </div>
+        <div class="swatch">
+          <div class="box" style="background:#1A1A1A;"></div>
+          <div class="hex">#1A1A1A</div>
+          <div class="role">Text</div>
+        </div>
+        <div class="swatch">
+          <div class="box" style="background:#FAFAF9; border:1px solid #ddd;"></div>
+          <div class="hex">#FAFAF9</div>
+          <div class="role">Background</div>
+        </div>
+        <div class="swatch">
+          <div class="box" style="background:#E8A54B;"></div>
+          <div class="hex">#E8A54B</div>
+          <div class="role">Accent</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Style Note</h2>
+      <p class="style-note">"Calm and precise — the portfolio frames the work, it never competes with it."</p>
+    </section>
+  </div>
+</body>
+</html>
